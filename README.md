@@ -1,10 +1,11 @@
-[![@myreact myreact]][my-react]
-[![yarn package]][yarn]
+[![npm](https://img.shields.io/npm/v/yarn?style=flat-square)][yarn]
+[![node-current](https://img.shields.io/node/v/npm?style=flat-square)][node]
 
-![yarn](https://img.shields.io/yarn/v/1.22.15)
+[![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FHuyenP96)][twitter]
 
-[my-react]: https://github.com/huyenph/my-react
-[yarn]: https://yarnpkg.com/getting-started/install
+[node]: https://www.npmjs.com/package/node
+[yarn]: https://www.npmjs.com/package/yarn
+[twitter]: https://twitter.com/HuyenP96
 
 # Getting Started with Create React App
 
@@ -23,6 +24,31 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [Creators](#creators)
 - [Community](#community)
 - [Copyright and License](#copyright-and-license)
+
+## What's included
+
+Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
+
+```
+my-react project structure
+├── public/          # static files
+│   └── index.html   # html template
+│
+├── src/             # project root
+│   ├── assets/      # images, icons, etc.
+│   ├── components/  # common components - header, footer, sidebar, etc.
+│   ├── layouts/     # layout containers
+│   ├── scss/        # scss styles
+│   ├── views/       # application views
+│   ├── _nav.js      # sidebar navigation config
+│   ├── App.js
+│   ├── ...
+│   ├── index.js
+│   ├── routes.js    # routes config
+│   └── store.js     # template state example 
+│
+└── package.json
+```
 
 ## Available Scripts
 
