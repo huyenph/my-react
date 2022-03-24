@@ -1,6 +1,8 @@
 [![@myreact myreact]][my-react]
 [![yarn package]][yarn]
 
+![yarn](https://img.shields.io/yarn/v/1.22.15)
+
 [my-react]: https://github.com/huyenph/my-react
 [yarn]: https://yarnpkg.com/getting-started/install
 
