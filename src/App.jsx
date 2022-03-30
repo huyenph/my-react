@@ -8,11 +8,12 @@ import React, {
 } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { createTheme, ThemeProvider, useTheme } from "@mui/material/styles";
-import "./App.css";
+import "./App.scss";
 import { Box, Container, IconButton } from "@mui/material";
 import { Brightness4Rounded, Brightness7Rounded } from "@mui/icons-material";
 import { orange } from "@mui/material/colors";
 import Loading from "./layouts/loading";
+import Footer from "./layouts/footer";
 
 const Login = lazy(() => import("./pages/login"));
 const Register = lazy(() => import("./pages/register"));
@@ -105,6 +106,7 @@ const App = () => {
           <Route exact path="/page500" name="Page 500" element={<Page500 />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </Suspense>
   );
 };
